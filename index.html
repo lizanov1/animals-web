@@ -11,96 +11,104 @@
           rel="stylesheet">
     <link rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header class="header">
-    <ul>
-        <li><a href="#"><img src="img/logo.png" alt="" width="70px" height="70px"></a></li>
-        <li><a href="#">Послуги</a></li>
-        <li><a href="#">Відгуки</a></li>
-        <li><a href="#">Наші експерти</a></li>
-        <li><a href="#">Про компанію</a></li>
-        <li><a href="#">Контакти</a></li>
-        <li><a href="#"><img src="img/whatsapp.svg" alt="" width="35px" height="35px"></a>
-            <a href="#"><img src="img/telegram.svg" alt="" width="35px" height="35px"></a></li>
-    </ul>
-</header>
-<main class="main">
-    <div class="main-image">
-        <div class="main-text">
-            <h1 class="first">Куточок</h1>
-            <h1 class="second">краси та здоров'я</h1>
+<div class="container-fluid">
+    <div class="row">
+    <header class="header">
+        <ul>
+            <li><a href="#"><img src="img/logo.png" alt="" width="70px" height="70px"></a></li>
+            <li><a href="#">Послуги</a></li>
+            <li><a href="#">Відгуки</a></li>
+            <li><a href="#">Наші експерти</a></li>
+            <li><a href="#">Про компанію</a></li>
+            <li><a href="#">Контакти</a></li>
+            <li><a href="#"><img src="img/whatsapp.svg" alt="" width="35px" height="35px"></a>
+                <a href="#"><img src="img/telegram.svg" alt="" width="35px" height="35px"></a></li>
+        </ul>
+    </header>
+    <main class="main">
+        <img src="./img/dog_and_cat.jpg" alt="" class="img-fluid"><!--style="width: 100%; height: auto;"-->
+        <div class="d-flex justify-content-center align-items-center flex-column main-image">
+            <div class="d-flex justify-content-center align-items-center flex-column main-text">
+                <h1 class="first">Куточок</h1>
+                <h1 class="second">краси та здоров'я</h1>
+            </div>
+            <h2 class="third">Для котів та собак</h2>
         </div>
-        <h2 class="third">Для котів та собак</h2>
-    </div>
-    <div class="services-section">
-        <h2 class="fourth">Послуги для ваших вихованців</h2>
-        <div class="services-box">
-            <div class="grumming-dogs service">
-                <img src="./img/grumming-dogs.png" alt="">
-                <p>Грумінг для собак та цуценят</p>
-                <span class="material-symbols-outlined">south</span>
-            </div>
-            <div class="grumming-cats service">
-                <img src="./img/grumming-cats.png" alt="">
-                <p>Грумінг для кішок і кошенят</p>
-                <span class="material-symbols-outlined">south</span>
-            </div>
-            <div class="zoo-veterinary service">
-                <img src="./img/zoo-veterinary.png" alt="">
-                <p>Ветеринарний кабінет</p>
-                <span class="material-symbols-outlined">south</span>
-            </div>
-            <div class="spa service">
-                <img src="./img/spa.png" alt="">
-                <p>SPA-догляд</p>
-                <span class="material-symbols-outlined">south</span>
-            </div>
-            <div class="zoo-hotel service">
-                <img src="./img/zoo-hotel.png" alt="">
-                <p>Зоо-готель</p>
-                <span class="material-symbols-outlined">south</span>
-            </div>
-            <div class="zoo-taxi service">
-                <img src="./img/zoo-taxi.png" alt="">
-                <p>Зоотаксі</p>
-                <span class="material-symbols-outlined">south</span>
-            </div>
-            <div class="cynologist service">
-                <img src="./img/cynologist.png" alt="">
-                <p>Заняття з кинологом</p>
-                <span class="material-symbols-outlined">south</span>
-            </div>
-            <div class="walking-dogs service">
-                <img src="./img/walking.png" alt="">
-                <p>Вигул собак/логіст</p>
-                <span class="material-symbols-outlined">south</span>
-            </div>
-            <div class="training service">
-                <img src="./img/training.png" alt="">
-                <p>Навчання</p>
-                <span class="material-symbols-outlined">south</span>
-            </div>
-            <div class="handler service">
-                <img src="./img/handler.png" alt="">
-                <p>Хендлер</p>
-                <span class="material-symbols-outlined">south</span>
-            </div>
-            <div class="zoo-psychologist service">
-                <img src="./img/zoo-psychologist.png" alt="">
-                <p>Зоопсихолог</p>
-                <span class="material-symbols-outlined">south</span>
-            </div>
-            <div class="zoo-shop service">
-                <img src="./img/zoo-shop.png" alt="">
-                <p>Зоомагазин</p>
-                <span class="material-symbols-outlined">south</span>
+        <div class="services-section">
+            <h2 class="fourth">Послуги для ваших вихованців</h2>
+            <div class="services-box">
+                <div class="grumming-dogs service">
+                    <img src="./img/grumming-dogs.png" alt="">
+                    <p>Грумінг для собак та цуценят</p>
+                    <span class="material-symbols-outlined">south</span>
+                </div>
+                <div class="grumming-cats service">
+                    <img src="./img/grumming-cats.png" alt="">
+                    <p>Грумінг для кішок і кошенят</p>
+                    <span class="material-symbols-outlined">south</span>
+                </div>
+                <div class="zoo-veterinary service">
+                    <img src="./img/zoo-veterinary.png" alt="">
+                    <p>Ветеринарний кабінет</p>
+                    <span class="material-symbols-outlined">south</span>
+                </div>
+                <div class="spa service">
+                    <img src="./img/spa.png" alt="">
+                    <p>SPA-догляд</p>
+                    <span class="material-symbols-outlined">south</span>
+                </div>
+                <div class="zoo-hotel service">
+                    <img src="./img/zoo-hotel.png" alt="">
+                    <p>Зоо-готель</p>
+                    <span class="material-symbols-outlined">south</span>
+                </div>
+                <div class="zoo-taxi service">
+                    <img src="./img/zoo-taxi.png" alt="">
+                    <p>Зоотаксі</p>
+                    <span class="material-symbols-outlined">south</span>
+                </div>
+                <div class="cynologist service">
+                    <img src="./img/cynologist.png" alt="">
+                    <p>Заняття з кинологом</p>
+                    <span class="material-symbols-outlined">south</span>
+                </div>
+                <div class="walking-dogs service">
+                    <img src="./img/walking.png" alt="">
+                    <p>Вигул собак/логіст</p>
+                    <span class="material-symbols-outlined">south</span>
+                </div>
+                <div class="training service">
+                    <img src="./img/training.png" alt="">
+                    <p>Навчання</p>
+                    <span class="material-symbols-outlined">south</span>
+                </div>
+                <div class="handler service">
+                    <img src="./img/handler.png" alt="">
+                    <p>Хендлер</p>
+                    <span class="material-symbols-outlined">south</span>
+                </div>
+                <div class="zoo-psychologist service">
+                    <img src="./img/zoo-psychologist.png" alt="">
+                    <p>Зоопсихолог</p>
+                    <span class="material-symbols-outlined">south</span>
+                </div>
+                <div class="zoo-shop service">
+                    <img src="./img/zoo-shop.png" alt="">
+                    <p>Зоомагазин</p>
+                    <span class="material-symbols-outlined">south</span>
+                </div>
             </div>
         </div>
+    </main>
+    <footer class="footer"></footer>
     </div>
-</main>
-<footer class="footer"></footer>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 <script src="scripts.js"></script>
 </body>
 </html>
