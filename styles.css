@@ -1,5 +1,13 @@
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 .header ul {
@@ -8,8 +16,23 @@ body {
     align-items: center;
     padding: 10px 20px;
     background-color: #fff;
-
     list-style-type: none;
+}
+
+.header ul a {
+    text-decoration: none;
+    color: #006B6A;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.header ul a:hover {
+    color: #0ADFC2; /*#006B6A;*/
 }
 
 .main {
@@ -17,7 +40,7 @@ body {
 }
 
 .main-image {
-    width: 1925px;
+    width: 1920px;
     height: 930px;
     flex-shrink: 0;
     background: url('./img/dog_and_cat.jpg'), lightgray -72.332px -138.079px / 103.222% 142.629% no-repeat;
@@ -73,7 +96,6 @@ body {
     font-size: 64px;
     font-style: normal;
     font-weight: 900;
-    /*line-height: 115.4%; !* 73.856px *!*/
     text-transform: uppercase;
     text-shadow: 2px 2px 4px #000000;
 }
@@ -90,30 +112,39 @@ body {
     text-align: center;
 }
 
-.services {
-    background: linear-gradient(177deg, #FFF3B4 3.18%, #91FBE8 33.79%, #B0ECFF 63.91%, #F0D1FF 93.56%);
+.services-section {
+    background: linear-gradient(177deg, #FFF3B4 3.18%, #91FBE8 33.79%, #B0ECFF 63.91%, #F0D1FF 93.56%)
 }
 
-.grumming-dogs {
+.services-box {
+    /*column-count: 2;*/
+    display: flex;
+justify-content: space-evenly;
+    flex-wrap: wrap;
+    /*justify-content: space-around;*/
+}
+
+.service {
     width: 559.741px;
     height: 100px;
     flex-shrink: 0;
     border-radius: 50px;
-    background: #FFEBEB;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    position: absolute;
+    margin-inline: 30px;
+    margin-block: 30px;
+    position: relative;
 }
 
-.grumming-dogs img {
-    width: 108px;
-    height: 88px;
-    flex-shrink: 0;
-    margin-top: 12px;
+.service img {
+    /*width: 108px;
+    height: 88px;*/
+    /*flex-shrink: 0;*/
+    /*margin-top: 12px;*/
 }
 
-.grumming-dogs p {
+.service p {
     color: #373737;
     font-size: 20px;
     font-style: normal;
@@ -121,4 +152,52 @@ body {
     line-height: 115.4%; /* 23.08px */
     letter-spacing: 0.2px;
     /*margin-left: -40px;*/
+}
+
+.grumming-dogs {
+    background: #FFEBEB;
+}
+
+.grumming-cats {
+    background: #E8F6FF;
+}
+
+.cynologist {
+    background: #FAFBFF;
+}
+
+.spa {
+    background: #F2F8FA;
+}
+
+.zoo-hotel {
+    background: #FCF7F3;
+}
+
+.zoo-taxi {
+    background: #F1F9F5;
+}
+
+.zoo-veterinary {
+    background: #F9F9F9;
+}
+
+.walking-dogs {
+    background: #FFF4EA;
+}
+
+.training {
+    background: #D8E8FC;
+}
+
+.handler {
+    background: #E3FCD8;
+}
+
+.zoo-psychologist {
+    background: #E4F5FF;
+}
+
+.zoo-shop {
+    background: #FFFFD6;
 }
