@@ -132,6 +132,21 @@ justify-content: space-evenly;
     /*margin-left: -40px;*/
 }
 
+.service a:hover {
+    width: 42px;
+    height: 42px;
+    background: #2BB473;
+    border-radius: 50%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.service a:hover span {
+    color: #FFF;
+}
+
 .grumming-dogs {
     background: #FFEBEB;
 }
